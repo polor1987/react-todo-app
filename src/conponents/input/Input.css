@@ -1,0 +1,27 @@
+.adding{
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	width: 100%;
+	margin-bottom: 10px; 
+}
+input{
+	width: 50%;
+	padding:10px;
+	border-radius: 6px;
+	border: none;
+	transition: all .3s;
+}
+input:focus{
+	box-shadow: 0 0 10px green;
+}
+.add{
+	width: 45px;
+	height: 35px;
+	border:none;
+	border-radius: 6px;
+	background-color: green;
+	color: #f1f1f1;
+	cursor: pointer;
+	margin: 0 5px;
+}

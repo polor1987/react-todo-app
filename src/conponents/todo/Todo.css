@@ -1,0 +1,35 @@
+.todo{
+	display: flex;
+	height: 8vh;
+	width: 80%;
+	justify-content: space-between;
+	align-items:center;
+	font-size: 1.3em;
+	font-weight: 600;
+	background-color: #fafafa;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 6px;
+	box-shadow: 0 0 5px gray;
+}
+.text{
+	text-align: justify;
+	flex:5;
+	font-size: 1.2em;
+	border: 0;
+	background-color: transparent;
+}
+.text:focus{
+ box-shadow: none;
+ outline: none;
+}
+.completed{
+	text-decoration: line-through;
+	color: #666;
+}
+.btn{
+	flex: 1;
+	height: 60%;
+	display: flex;
+	justify-content: space-around;
+}
