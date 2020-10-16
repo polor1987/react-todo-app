@@ -8,14 +8,13 @@ function App() {
   const [todo, setTodo] = useState([]);
 
   const upDataTodo = (text, i) => {
-    todo.filter((elem) => {
+    setTodo(todo.map((elem) => {
       if (elem.id === i) {
-        elem.text = text
+       return {...elem,text:text}
       }
       return elem
-    });
-    setTodo({todo})
-  };
+    })) 
+  }
 
   return (
     <div className="App">
